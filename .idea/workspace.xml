@@ -1,17 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dca73aad-8a20-483f-ac21-3ce51a35dced" name="Default" comment="" />
+    <list default="true" id="dca73aad-8a20-483f-ac21-3ce51a35dced" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dao/DAOCidade.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/styles/admin.css" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\.idea\libraries\Tomcat.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\Gemfile" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\Gemfile.lock" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\Rakefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\bootstrap-2.3.2.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\bootstrap-2.3.2.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\bootstrap-responsive-2.3.2.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\bootstrap-responsive-2.3.2.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\component.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\img\glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\img\glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\bootstrap-affix.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\bootstrap-alert.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\bootstrap-button.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\bootstrap-carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\bootstrap-collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\bootstrap-dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\bootstrap-modal.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\bootstrap-popover.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\bootstrap-scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\bootstrap-tab.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\bootstrap-tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\bootstrap-transition.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\bootstrap-typeahead.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\tests\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\tests\phantom.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\tests\server.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\tests\unit\bootstrap-affix.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\tests\unit\bootstrap-alert.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\tests\unit\bootstrap-button.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\tests\unit\bootstrap-carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\tests\unit\bootstrap-collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\tests\unit\bootstrap-dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\tests\unit\bootstrap-modal.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\tests\unit\bootstrap-phantom.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\tests\unit\bootstrap-popover.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\tests\unit\bootstrap-scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\tests\unit\bootstrap-tab.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\tests\unit\bootstrap-tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\tests\unit\bootstrap-transition.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\tests\unit\bootstrap-typeahead.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\tests\vendor\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\tests\vendor\qunit.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\js\tests\vendor\qunit.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_accordion.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_alerts.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_breadcrumbs.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_button-groups.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_carousel.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_close.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_code.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_component-animations.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_dropdowns.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_hero-unit.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_labels-badges.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_layouts.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_media.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_modals.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_navbar.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_navs.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_pager.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_pagination.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_popovers.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_progress-bars.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_reset.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_responsive-1200px-min.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_responsive-767px-max.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_responsive-768px-979px.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_responsive-navbar.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_responsive-utilities.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_scaffolding.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_sprites.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_tables.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_thumbnails.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_tooltip.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_type.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_utilities.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\_wells.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\bootstrap.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\responsive.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\tests\buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\tests\css-tests.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\tests\css-tests.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\tests\forms-responsive.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\tests\forms.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\tests\navbar-fixed-top.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\tests\navbar-static-top.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\lib\tests\navbar.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abelardo\workspace\MedicoApp\WebContent\bower_components\bootstrap-sass\package.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/MedicoApp/WEB-INF/classes/controller/MedicoServlet.class" afterPath="$PROJECT_DIR$/classes/artifacts/MedicoApp/WEB-INF/classes/controller/MedicoServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.classpath" afterPath="$PROJECT_DIR$/.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/DAOMedico.java" afterPath="$PROJECT_DIR$/src/dao/DAOMedico.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MedicoApp.iml" afterPath="$PROJECT_DIR$/MedicoApp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/MedicoApp.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/MedicoApp.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/MedicoServlet.java" afterPath="$PROJECT_DIR$/src/controller/MedicoServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/bower_components/angular/angular.js" afterPath="$PROJECT_DIR$/WebContent/bower_components/angular/angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/scripts/app.js" afterPath="$PROJECT_DIR$/WebContent/scripts/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/tags/footer.tag" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/tags/footer.tag" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/tags/header.tag" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/tags/header.tag" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/inicio.jsp" afterPath="$PROJECT_DIR$/WebContent/inicio.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/medico.jsp" afterPath="$PROJECT_DIR$/WebContent/medico.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/paciente.jsp" afterPath="$PROJECT_DIR$/WebContent/paciente.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/perfil.jsp" afterPath="$PROJECT_DIR$/WebContent/perfil.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/perfiledit.jsp" afterPath="$PROJECT_DIR$/WebContent/perfiledit.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/WebContent/META-INF/persistence.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/resultado.jsp" afterPath="$PROJECT_DIR$/WebContent/resultado.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="MedicoApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../ProjetoMedico/web/META-INF/MANIFEST.MF" changelist="dca73aad-8a20-483f-ac21-3ce51a35dced" time="1377407964491" ignored="false" />
-    <file path="/web.xml" changelist="dca73aad-8a20-483f-ac21-3ce51a35dced" time="1377408017942" ignored="false" />
+    <file path="/web.xml" changelist="dca73aad-8a20-483f-ac21-3ce51a35dced" time="1377555016775" ignored="false" />
     <file path="$PROJECT_DIR$/../ProjetoMedico/web/WEB-INF/web.xml" changelist="dca73aad-8a20-483f-ac21-3ce51a35dced" time="1377408017942" ignored="false" />
     <file path="$PROJECT_DIR$/../ProjetoMedico/src/model/Consulta.java" changelist="dca73aad-8a20-483f-ac21-3ce51a35dced" time="1377408070273" ignored="false" />
     <file path="$PROJECT_DIR$/../ProjetoMedico/src/dao/DAOJPA.java" changelist="dca73aad-8a20-483f-ac21-3ce51a35dced" time="1377408070946" ignored="false" />
     <file path="$PROJECT_DIR$/../ProjetoMedico/src/model/Comentario.java" changelist="dca73aad-8a20-483f-ac21-3ce51a35dced" time="1377408070274" ignored="false" />
     <file path="$PROJECT_DIR$/../ProjetoMedico/src/controller/MedicoServlet.java" changelist="dca73aad-8a20-483f-ac21-3ce51a35dced" time="1377408070946" ignored="false" />
     <file path="$PROJECT_DIR$/../ProjetoMedico/src/model/Medico.java" changelist="dca73aad-8a20-483f-ac21-3ce51a35dced" time="1377408070274" ignored="false" />
+    <file path="/Dummy.txt" changelist="dca73aad-8a20-483f-ac21-3ce51a35dced" time="1377563744212" ignored="false" />
+    <file path="$PROJECT_DIR$/classes/artifacts/MedicoApp/WEB-INF/web.xml" changelist="dca73aad-8a20-483f-ac21-3ce51a35dced" time="1377550173095" ignored="false" />
+    <file path="/MedicoServlet.java" changelist="dca73aad-8a20-483f-ac21-3ce51a35dced" time="1377562302045" ignored="false" />
+    <file path="/DAOCidade.java" changelist="dca73aad-8a20-483f-ac21-3ce51a35dced" time="1377550473050" ignored="false" />
+    <file path="/persistence.xml" changelist="dca73aad-8a20-483f-ac21-3ce51a35dced" time="1377563824686" ignored="false" />
+    <file path="/index.jsp" changelist="dca73aad-8a20-483f-ac21-3ce51a35dced" time="1377555939442" ignored="false" />
+    <file path="/header.tag" changelist="dca73aad-8a20-483f-ac21-3ce51a35dced" time="1377554302133" ignored="false" />
+    <file path="/footer.tag" changelist="dca73aad-8a20-483f-ac21-3ce51a35dced" time="1377554307330" ignored="false" />
+    <file path="/inicio.jsp" changelist="dca73aad-8a20-483f-ac21-3ce51a35dced" time="1377554139397" ignored="false" />
+    <file path="/medico.jsp" changelist="dca73aad-8a20-483f-ac21-3ce51a35dced" time="1377561621891" ignored="false" />
+    <file path="/paciente.jsp" changelist="dca73aad-8a20-483f-ac21-3ce51a35dced" time="1377554152631" ignored="false" />
+    <file path="/perfil.jsp" changelist="dca73aad-8a20-483f-ac21-3ce51a35dced" time="1377554161419" ignored="false" />
+    <file path="/perfiledit.jsp" changelist="dca73aad-8a20-483f-ac21-3ce51a35dced" time="1377554170436" ignored="false" />
+    <file path="/resultado.jsp" changelist="dca73aad-8a20-483f-ac21-3ce51a35dced" time="1377554175534" ignored="false" />
+    <file path="/dummy.xml" changelist="dca73aad-8a20-483f-ac21-3ce51a35dced" time="1377555781899" ignored="false" />
+    <file path="/admin.css" changelist="dca73aad-8a20-483f-ac21-3ce51a35dced" time="1377558898829" ignored="false" />
+    <file path="/index.html" changelist="dca73aad-8a20-483f-ac21-3ce51a35dced" time="1377558349668" ignored="false" />
+    <file path="/app.js" changelist="dca73aad-8a20-483f-ac21-3ce51a35dced" time="1377562079618" ignored="false" />
+    <file path="/DAOMedico.java" changelist="dca73aad-8a20-483f-ac21-3ce51a35dced" time="1377562500954" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +172,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -63,6 +208,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -71,22 +217,150 @@
     <favorites_list name="MedicoApp" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebContent/bower_components/jquery/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="vertical" split-proportion="0.27437642">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/WebContent/admin/index.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="2" column="24" selection-start="77" selection-end="77" vertical-scroll-proportion="-0.5">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="medico.jsp" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/WebContent/medico.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="40" column="28" selection-start="1946" selection-end="1946" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/WebContent/scripts/app.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="18" column="59" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
+              <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+                <state />
+              </provider>
+              <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+                <state />
+              </provider>
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="7" column="18" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+              <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+                <state />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="header.tag" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/tags/header.tag">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="1" column="44" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="inicio.jsp" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/WebContent/inicio.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="18" column="8" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MedicoServlet.java" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/controller/MedicoServlet.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="94" column="12" selection-start="2416" selection-end="2416" vertical-scroll-proportion="0.0718232">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="perfiledit.jsp" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/WebContent/perfiledit.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="112" column="19" selection-start="2253" selection-end="2253" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="admin.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/WebContent/styles/admin.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="59" column="50" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="persistence.xml" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/WebContent/META-INF/persistence.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="16" column="87" selection-start="1159" selection-end="1165" vertical-scroll-proportion="0.35016835">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/WebContent/inicio.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/paciente.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/perfil.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/perfiledit.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/resultado.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/tags/header.tag" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/tags/footer.tag" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/WebContent/admin/index.html" />
+        <option value="$PROJECT_DIR$/WebContent/admin/index.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/styles/admin.css" />
+        <option value="$PROJECT_DIR$/WebContent/medico.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/scripts/app.js" />
+        <option value="$PROJECT_DIR$/src/controller/MedicoServlet.java" />
+        <option value="$PROJECT_DIR$/src/dao/DAOMedico.java" />
+        <option value="$PROJECT_DIR$/WebContent/META-INF/persistence.xml" />
+      </list>
+    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -96,10 +370,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="683" />
-    <option name="height" value="768" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -108,7 +382,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -127,7 +401,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -192,29 +466,125 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MedicoApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MedicoApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MedicoApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MedicoApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MedicoApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MedicoApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MedicoApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MedicoApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MedicoApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MedicoApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Tomcat/lib/tomcat-util.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/WebContent/WEB-INF/lib/standard.jar!/" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
@@ -238,6 +608,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -266,19 +649,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -315,6 +685,13 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
@@ -441,35 +818,57 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="683" height="768" extended-state="4" />
-    <editor active="false" />
+    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952926" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3171806" sideWeight="0.7385714" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26142856" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30289534" sideWeight="0.670068" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26530612" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -537,67 +936,121 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/controller/MedicoServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="31" selection-start="1236" selection-end="1302" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#953#969#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="24" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/inicio.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/medico.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/paciente.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="37" column="19" selection-start="1470" selection-end="1470" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/perfil.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/perfiledit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="107" column="19" selection-start="2110" selection-end="2110" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/resultado.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="22" column="19" selection-start="837" selection-end="837" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/bower_components/jquery/README.md">
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/tags/footer.tag">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="17" column="15" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="18" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/tags/header.tag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="44" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/inicio.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="8" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/perfiledit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="19" selection-start="2253" selection-end="2253" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/styles/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="50" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/admin/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="24" selection-start="77" selection-end="77" vertical-scroll-proportion="-0.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/medico.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="28" selection-start="1946" selection-end="1946" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/DAOJPA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="39" selection-start="1946" selection-end="1950" vertical-scroll-proportion="0.4043716">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="59" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="87" selection-start="1159" selection-end="1165" vertical-scroll-proportion="0.35016835">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/DAOMedico.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="29" selection-start="276" selection-end="276" vertical-scroll-proportion="0.8041237">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/MedicoServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="12" selection-start="2416" selection-end="2416" vertical-scroll-proportion="0.0718232">
           <folding />
         </state>
       </provider>
@@ -621,7 +1074,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -657,7 +1110,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>MedicoApp</last-edited>
+          <last-edited>Web|MedicoApp</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -2,40 +2,75 @@ package model;
 
 
 import java.util.ArrayList;
+import java.util.List;
 
-public class Medico {
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
+/**
+ * @author Abelardo
+ *
+ */
+@Entity
+public class Medico extends Usuario {
 
-    private int id;
-    private String nome;
-    private ArrayList<Consulta> consultas = new ArrayList<Consulta>();
-    private ArrayList<Cidade> cidades = new ArrayList<Cidade>();
+    @OneToMany(mappedBy="medico", cascade=CascadeType.REMOVE)
+    private List<Consulta> consultas = new ArrayList<Consulta>();
+    
+    private String convenio;
+    
+    private String crm;
+    
+    @ManyToOne(cascade=CascadeType.PERSIST)
+    private Especialidade especialidade;
+        
+    public Medico(String nome, Cidade cidade,  Especialidade especialidade, String login, String senha, String email, Endereco end, String tel, String crm, String plano) {
+		super(nome,login,senha,email,cidade, end, tel, plano);
+		this.especialidade = especialidade;
+		this.crm = crm;
+	}
+    
+    
+	public Medico(String nome, String login, String email, String senha,
+			Cidade cid, Endereco endereco, String telefone, Especialidade esp, String plano) {
+		super(nome, login, email, senha, cid, endereco, telefone, plano);
+	}
+	
+	public Medico(){}
 
-    public String getNome() {
-        return nome;
-    }
+	public String getConvenio() {
+		return convenio;
+	}
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
+	public void setConvenio(String convenio) {
+		this.convenio = convenio;
+	}
 
-    public Medico(String nome) {
-        this.nome = nome;
-    }
-    public Medico() {}
+	
+	public String getCrm() {
+		return crm;
+	}
 
-    public int getId() {
-        return id;
-    }
 
-    public void setId(int id) {
-        this.id = id;
-    }
+	public void setCrm(String crm) {
+		this.crm = crm;
+	}
 
-    public ArrayList<Consulta> getConsultas() {
+
+	public Especialidade getEspecialidade() {
+		return especialidade;
+	}
+
+	public void setEspecialidade(Especialidade especialidade) {
+		this.especialidade = especialidade;
+	}
+
+    public List<Consulta> getConsultas() {
         return consultas;
     }
 
-    public void setConsultas(ArrayList<Consulta> consultas) {
+    public void setConsultas(List<Consulta> consultas) {
         this.consultas = consultas;
     }
 }

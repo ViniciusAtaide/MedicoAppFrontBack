@@ -9,4 +9,24 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>inicio.jsp</welcome-file>
   </welcome-file-list>
+  <error-page>
+    <error-code>404</error-code>
+    <location>/404.jsp</location>
+  </error-page>
+  <security-role>
+    <role-name>admin</role-name>
+  </security-role>
+  <login-config>
+    <auth-method>BASIC</auth-method>
+    <realm-name>Acesso Restrito</realm-name>
+  </login-config>
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>Area Admin</web-resource-name>
+      <url-pattern>/admin/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>admin</role-name>
+    </auth-constraint>
+  </security-constraint>
 </web-app>

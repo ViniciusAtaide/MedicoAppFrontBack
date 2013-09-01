@@ -1,17 +1,38 @@
 package model;
 
 import java.util.ArrayList;
+import java.util.List;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
+
+@Entity
 public class Consulta {
 
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
     private int id;
+	
+    @ManyToOne
     private Medico medico;
+    
+    @ManyToOne
     private Cliente cliente;
+    
     private int result;
-    private ArrayList<Comentario> comentarios = new ArrayList<Comentario>();
+    
+    @OneToMany(mappedBy="consulta")
+    private List<Comentario> comentarios = new ArrayList<Comentario>();
 
+    public Consulta() {
+		super();
+	}
 
-    public int getResult() {
+	public int getResult() {
         return result;
     }
 
@@ -49,4 +70,12 @@ public class Consulta {
     public void setCliente(Cliente cliente) {
         this.cliente = cliente;
     }
+
+	public List<Comentario> getComentarios() {
+		return comentarios;
+	}
+
+	public void setComentarios(List<Comentario> comentarios) {
+		this.comentarios = comentarios;
+	}        
 }

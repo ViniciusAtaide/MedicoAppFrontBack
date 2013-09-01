@@ -1,23 +1,35 @@
 package model;
 
-import java.util.ArrayList;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 
+@Entity
 public class Comentario {
+	
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
     private int id;
     private String comentario;
-
-    private Comentario resposta;
-
+    
+    @ManyToOne
+    private Consulta consulta;    
 
     public Comentario(int id, String comentario) {
         this.id = id;
         this.comentario = comentario;
     }
 
-    public int getId() {
+    public Comentario() {
+		super();
+	}
+
+	public int getId() {
         return id;
     }
-
+	
     public void setId(int id) {
         this.id = id;
     }
@@ -30,11 +42,12 @@ public class Comentario {
         this.comentario = comentario;
     }
 
-    public Comentario getResposta() {
-        return resposta;
-    }
+    public Consulta getConsulta() {
+		return consulta;
+	}
 
-    public void setResposta(Comentario resposta) {
-        this.resposta = resposta;
-    }
+	public void setConsulta(Consulta consulta) {
+		this.consulta = consulta;
+	}
+
 }

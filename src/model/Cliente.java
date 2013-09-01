@@ -1,58 +1,65 @@
 package model;
 
-public class Cliente {
+import java.util.ArrayList;
+import java.util.List;
 
-    private int id;
+import javax.persistence.Entity;
+import javax.persistence.OneToMany;
 
-    private String nome;
-    private String login;
-    private String email;
-    private String senha;
+@Entity
+public class Cliente extends Usuario {
+
     private String CPF;
-    private String plano;
-    private Consulta consulta;
 
+    @OneToMany(mappedBy = "cliente")
+    private List<Consulta> consultas =  new ArrayList<Consulta>();
 
-
-
-    public Cliente(int id, String nome, String plano, Consulta consulta) {
-        this.id = id;
-        this.nome = nome;
-        this.plano = plano;
-        this.consulta = consulta;
+    public Cliente(String nome, String login, String senha, String email, Cidade cidade, Endereco endereco, String plano, List<Consulta> consultas, String tel) {
+        super(nome, login, senha,email,cidade,endereco,tel, plano);        
+        this.consultas = consultas;
     }
 
+    public Cliente(){}
+    
+    public Cliente(String nome, String login, String email, String senha,
+			Cidade cid, Endereco endereco, String telefone, String plano) {
+		super(nome, login, email, senha, cid, endereco, telefone, plano);		
+	}
 
 
-    public int getId() {
-        return id;
+	public Cliente(String nome, String login, String email, String senha,
+			Cidade cid, Endereco endereco, String cpf, String plano, String tel) {
+		super(nome, login, email, senha, cid, endereco,tel,plano);
+		CPF = cpf;
+	}
+    public List<Consulta> getConsulta() {
+        return consultas;
+    }       
+    
+	public String getCPF() {
+		return CPF;
+	}
+
+	public void setCPF(String cPF) {
+		CPF = cPF;
+	}
+
+	public List<Consulta> getConsultas() {
+		return consultas;
+	}
+
+	public void setConsultas(List<Consulta> consultas) {
+		this.consultas = consultas;
+	}
+
+	public void setConsulta(List<Consulta> consultas) {
+        this.consultas = consultas;
     }
-
-    public void setId(int id) {
-        this.id = id;
+    public void addConsulta(Consulta c) {
+    	this.consultas.add(c);
     }
-
-    public String getNome() {
-        return nome;
+    public void removeConsulta(Consulta c) {
+    	this.consultas.remove(c);
     }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getPlano() {
-        return plano;
-    }
-
-    public void setPlano(String plano) {
-        this.plano = plano;
-    }
-
-    public Consulta getConsulta() {
-        return consulta;
-    }
-
-    public void setConsulta(Consulta consulta) {
-        this.consulta = consulta;
-    }
+    
 }
